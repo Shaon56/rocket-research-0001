@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #143fb3 ;
+}
+.container{
+    width: 100%;
+    height: 100%;
+  
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 17px;
+    color: rgb(229, 204, 231);
+    cursor: pointer;
+}
+.logo img{
+    width: 40px;
+    margin-top: -10px;
+    margin-right: 35px;
+    color: antiquewhite;
+}
+.active{
+    color: rgb(243, 94, 198) !important ;
+}
+.signup-btn{
+    color: rgb(236, 182, 234);
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#143fb3, #1d44af), 
+    radial-gradient(circle at top left,rgb(202, 18, 12), rgb(0, 255, 13), rgb(238, 255, 0));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.signup-btn span{
+    display: block;
+    margin: 5px 10px;
+}
+.banner{
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 75px;
+    position: absolute;
+}
+.web-text{
+    width: 60%;
+    float: left;
+}
+.web-text h1{
+    font-size: 30px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+    color: rgb(214, 142, 236);
+}
+.web-text p{
+    font-size: 15px;
+    width: 650px;
+    line-height: 20px;
+    margin: 30px 200px 30px 40px;
+    color: #6d93fa;
+    position: relative;
+}
+.web-pic{
+    width: 40%;
+    float: right;
+}
+.web-pic img{
+    width: 100%;
+    margin-top: -20px;
+    padding-left: 400px;
+}
+.btn{
+    margin-left: 40px;
+    display: inline-flex;
+    color: pink;
+}
+.play-btn{
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    background-image: linear-gradient(#143fb3, #1d44af), 
+    radial-gradient(circle at top left,rgb(202, 18, 12), rgb(0, 255, 13), rgb(238, 255, 0));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    text-align: center;
+}
+.play-btn .fa-solid{
+    padding: 16px 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+small{
+    margin: auto 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.link{
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to right, rgb(94, 252, 3), rgb(7, 212, 248));
+}
+.link ul{
+    display: inline-flex;
+    margin: 25px auto;
+    text-align: center;
+}
+.link ul li{
+    list-style: none;
+    margin: 0px 25px;
+    cursor: pointer;
+}
+.link ul li .fa-solid{
+    font-size: 25px;
+    color: #6b5a6a;
+}
+.link ul li p{
+    font-size: 15px;
+    color: #6b5a6a;
+    margin-top: 15px;
+}
+.social{
+    right: 60px;
+    bottom: 40px;
+    position: absolute;
+}
+.social ul li{
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+}
+.social ul li a{
+    color: #23ec09;
+    font-size: 20px;
+    border: 1px solid pink;
+    border-radius: 40%;
+    display: block;
+    padding: 5px;
+}
+a:hover{
+    background-color: rgb(212, 39, 126);
+}
